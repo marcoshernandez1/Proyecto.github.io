@@ -18,14 +18,13 @@ Permite visualizar un listado de artículos, agregarlos al carrito y calcular el
 
 ## Descripción del Proyecto
 
-**Tienda de Artículos Electrónicos** es una página web sencilla desarrollada con fines educativos.  
+**Tienda de Artículos Electrónicos** 
 Permite al usuario:
 - Ver un catálogo de productos electrónicos.
 - Agregar productos al carrito.
 - Eliminar productos individuales o vaciar el carrito completo.
 - Calcular el total de la compra dinámicamente con JavaScript.
 
-Este proyecto fue creado como parte de la materia **Taller de Desarrollo Web**.
 
 ---
 
