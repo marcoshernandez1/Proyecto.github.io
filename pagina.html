@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de artículos electrónicos</title>
+  <link rel="stylesheet" href="estilo.css">
+  
+</head>
+
+<body>
+  <header>
+    <h1>Tienda de artículos electrónicos</h1>
+    <button id="cart-btn">Carrito (<span id="cart-count">0</span>)</button>
+  </header>
+
+  <main>
+   
+    <section class="product-list" id="product-list">
+
+      <div class="product" data-id="1" data-name="Auriculares Bluetooth" data-price="12000">
+        <img src="imagenes/auriculares.jpg" alt="Auriculares Bluetooth">
+        <h3>Auriculares Bluetooth</h3>
+        <p>Precio: $12.000</p>
+        <button class="add-btn">Agregar al carrito</button>
+      </div>
+
+      <div class="product" data-id="2" data-name="Reloj Inteligente" data-price="25000">
+        <img src="imagenes/reloj.jpg" alt="Reloj Inteligente">
+        <h3>Reloj Inteligente</h3>
+        <p>Precio: $25.000</p>
+        <button class="add-btn">Agregar al carrito</button>
+      </div>
+
+      <div class="product" data-id="3" data-name="Teclado Mecánico" data-price="18000">
+        <img src="imagenes/teclado.jpg" alt="Teclado Mecánico">
+        <h3>Teclado Mecánico</h3>
+        <p>Precio: $18.000</p>
+        <button class="add-btn">Agregar al carrito</button>
+      </div>
+
+      <div class="product" data-id="4" data-name="Mouse Gamer" data-price="9500">
+        <img src="imagenes/mouse.jpg" alt="Mouse Gamer">
+        <h3>Mouse Gamer</h3>
+        <p>Precio: $9.500</p>
+        <button class="add-btn">Agregar al carrito</button>
+      </div>
+
+      <div class="product" data-id="5" data-name="Notebook Pro" data-price="380000">
+        <img src="imagenes/compu.jpg" alt="Notebook Pro">
+        <h3>Notebook Pro</h3>
+        <p>Precio: $380.000</p>
+        <button class="add-btn">Agregar al carrito</button>
+      </div>
+
+      <div class="product" data-id="6" data-name="Smartphone X10" data-price="250000">
+        <img src="imagenes/celu.jpg" alt="Smartphone X10">
+        <h3>Smartphone X10</h3>
+        <p>Precio: $250.000</p>
+        <button class="add-btn">Agregar al carrito</button>
+      </div>
+
+    </section>
+
+    
+    <aside id="cart" class="hidden">
+      <h2>Tu Carrito</h2>
+      <ul id="cart-items"></ul>
+      <p id="cart-total">Total: $0</p>
+      <button id="clear-cart">Vaciar Carrito</button>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2025 Tienda de artículos electrónicos</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
